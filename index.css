@@ -1,0 +1,43 @@
+.container{
+    margin: auto;
+    background-color: rgb(44, 44, 46);
+    height: 550px;
+    width:300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border : 4px solid rgb(44, 44, 46);
+    box-shadow: 4px 4px 50px rgb(44, 44, 46);
+}
+.subContainer{
+    height:270px;
+}
+#timer{
+    background-color: honeydew;
+    border : 13px solid grey;
+    text-align: center;
+    height: 150px;
+    font-size:40px;
+    color:steelblue;
+}
+#row{
+    display:flex;
+}
+#col{
+    flex:auto;
+}
+#sadd, #ssub, #badd, #bsub, #start, #reset{
+    background-color: black;
+    font-size: 20px;
+    color:white;
+}
+#sadd, #ssub, #badd, #bsub{
+    width:30px;
+}
+#start, #reset{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

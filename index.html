@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <head>
+        <title>Pomodoro Clock</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body style="background-color: bisque;padding-top: 15px;">
+        <div class="container">
+            <div class="subContainer" >
+                    <div id="timer">
+                        <p > <strong>
+                            <label id="hm"> 20: </label>
+                            <label id="hs"> 00 </label>
+                        </strong></p>
+                    </div>
+                <div style="text-align: center;color:white;">
+                    <h1 id="heading">Session 1</h1>
+                </div>
+                <hr style="border : 1px solid darkgrey">
+            </div>
+            <div id="row">
+                <div id="col" style="padding-left: 30px;" >
+                        <label style="color:white;font-size: 20px;">
+                            session time 
+                        </label>
+                        <br>
+                        <label id="session-time" style="color: steelblue;font-size: 30px;">
+                            20 min
+                        </label>
+                        <p style="padding-left: 10px;">
+                            <button id="ssub"style="margin-right: 10px;"> - </button>
+                            <button id="sadd"> + </button>
+                        </p>
+                </div>
+                <div style="padding-right: 50px;">
+                    <label style="color:white;font-size: 20px;text-align: left;">
+                        break time 
+                    </label>
+                    <br>
+                    <label id="break-time" style="color: red;font-size: 30px;">
+                        05 min
+                    </label>
+                    <p style="padding-left: 10px;">
+                        <button id="bsub" style="margin-right: 10px;"> - </button>
+                        <button id="badd" > + </button>
+                    </p>
+                </div>
+            </div>
+            <hr style="border : 1px solid darkgrey">
+            <br><br>
+            <div id="row" >
+                <div id="col"  style="padding-left: 30px;" >
+                    <button id="start" >start</button>
+                </div>
+                <div style="padding-right: 50px;">
+                    <button id="reset" >reset</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js" type="text/javascript"></script>
+</html>
